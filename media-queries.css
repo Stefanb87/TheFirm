@@ -1,0 +1,350 @@
+/* MEDIA QUERIES */
+
+/* NAV */
+
+@media screen and (max-width: 992px) {
+    .nav li a {
+	font-size: 12px !important;
+	padding-left: 5px;
+	padding-right: 5px;
+	}
+	#spanBrend1, #spanBrend2 {
+	font-size: 24px !important;
+	}
+}
+@media screen and (max-width: 768px) {
+    .icon-bar {
+		background-color: #ff4000 !important;
+    }
+    .navbar-toggle {
+    	border-color: #ff4000 !important;
+    }
+    li.active a { 
+	  border-top: none !important;
+	}
+	.navbar-collapse {
+		text-align: right;
+		border-top: none !important;
+		box-shadow: none !important;
+	}
+	.navbar-collapse ul {
+		border-top: none !important;
+		outline: none !important;
+		padding-top: 5px !important;
+	}
+	nav {
+		background-color: rgba(0, 0, 0, 0.8) !important;
+	}
+	.navbarA {
+		height: 40px !important;
+	}
+	.nav li a {
+		font-size: 14px !important;
+	}
+}
+
+/*prvi div */
+
+@media screen and (max-width: 1354px) {
+    #btnPrviDiv {
+    	font-size: 10px;
+    }
+}
+@media screen and (max-width: 1048px) {
+    #btnPrviDiv {
+    	width: 15% !important;
+    }
+    #prviDiv h1 {
+    	font-size: 40px;
+    }
+    #prviDiv #btnPrviDiv {
+    margin-bottom: 200px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #btnPrviDiv {
+    	width: 25% !important;
+    }
+    #prviDiv h1 {
+    	font-size: 30px;
+    }
+    #prviDiv #btnPrviDiv {
+    margin-bottom: 100px;
+    }
+}
+@media screen and (max-width: 447px) {
+    #btnPrviDiv {
+    	width: 35% !important;
+    }
+    #prviDiv h1 {
+    	margin-top: 220px;
+    }
+}
+@media screen and (max-width: 335px) {
+    #btnPrviDiv {
+    	width: 40% !important;
+    }
+}
+
+/*drugi div */
+
+@media screen and (max-width: 993px) {
+    #imgHistory {
+        height: 250px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #imgHistory {
+        height: 350px;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 500px) {
+    #imgHistory {
+        height: 220px;
+    }
+}
+
+/*treci div */
+
+@media screen and (max-width: 970px) {
+    #treciDiv {
+    padding-left: 100px;
+    padding-right: 100px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .coltreciDiv {
+    margin-bottom: 30px;
+    }
+    #pTreciDiv {
+    width: 80%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #treciDiv {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    .coltreciDiv {
+    margin-bottom: 30px;
+    }
+    #pTreciDiv {
+    width: 95%;
+    }
+}
+
+/*cetvrti div */
+
+@media screen and (max-width: 768px) {
+    .R1, .R2, .R3 {
+    padding-left: 150px;
+    padding-right: 150px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .R1, .R2, .R3 {
+    padding-left: 100px;
+    padding-right: 100px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .R1, .R2, .R3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+}
+@media screen and (max-width: 485px) {
+    #BAll, #BWD, #BGD, #BWDev {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    }
+}
+
+/*peti div */
+
+@media screen and (max-width: 1146px) {
+    .pPetiDiv1 {
+    font-size: 20px;
+    }
+}
+@media screen and (max-width: 485px) {
+    #BAll, #BWD, #BGD, #BWDev {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    }
+}
+@media screen and (max-width: 590px) {
+    #petiDiv {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    #pPetiDivGlavni {
+    width: 95%;
+    }
+    .pPetiDiv {
+    font-size: 25px;
+    }
+}
+
+/*sesti div */
+
+@media screen and (min-width: 1600px) {
+    .rowSlike {
+    width: 1300px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+    }
+}
+@media screen and (max-width: 1400px) {
+    #sestiDiv {
+    padding-left: 100px;
+    padding-right: 100px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #sestiDiv {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+}
+@media screen and (max-width: 990px) {
+    #sestiDiv {
+    padding-left: 120px;
+    padding-right: 120px;
+    }
+    .prviRedSestiDiv {
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 815px) {
+    #sestiDiv {
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .rowSlike {
+    padding-left: 150px;
+    padding-right: 150px;
+    }
+    .pSestiDiv {
+    width: 100% !important;
+    }
+    .prviRedSestiDiv1 {
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 670px) {
+    .rowSlike {
+    padding-left: 100px;
+    padding-right: 100px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .rowSlike {
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .rowSlike {
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    #sestiDiv {
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+}
+@media screen and (max-width: 340px) {
+    #sestiDiv {
+    padding-left: 5px;
+    padding-right: 5px;
+    }
+}
+
+/*sedmi div */
+
+@media screen and (max-width: 1250px) {
+    #sedmiDiv {
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .rowSedmiDiv {
+    padding-left: 100px;
+    padding-right: 100px;
+    }
+    .pSedmiDiv {
+    width: 95%;
+    }
+    .colDevetiDiv {
+        padding-bottom: 0px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .rowSedmiDiv {
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+}
+@media screen and (max-width: 350px) {
+    #sedmiDiv {
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+}
+
+/*osmi div */
+
+@media screen and (max-width: 768px) {
+    .pOsmiDiv {
+    width: 95%;
+    }
+}
+@media screen and (max-width: 532px) {
+    .BBlog {
+    width: 50%;
+    height: 40px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .BBlog {
+    width: 60%;
+    height: 30px;
+    }
+}
+
+/*footer div */
+
+@media screen and (max-width: 990px) {
+    .pForma, .inputJedanaestiDiv {
+    float: left;
+    }
+    .divLinksFooter {
+        padding-left: 20px !important;
+    }
+    .rowForma{
+    width: 100%;
+    }
+    .divContactFooter {
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 648px) {
+    .inputJedanaestiDiv{
+    width: 100%;
+    }
+}
+@media screen and (max-width: 363px) {
+    .pForma{
+    text-align: left;
+    }
+    .input-group-addon{
+    font-size: 12px !important;
+    width: 50px !important;
+    }
+}

@@ -1,0 +1,929 @@
+
+* {
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+*:focus {
+	outline: none;
+}
+
+/*CSS za PRVI div*/
+
+#prviDiv {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65) ), url("https://source.unsplash.com/aOC7TSLb1o8/1600x900");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	
+	text-align: center;
+	color: #e0e0d1;
+}
+#spanBrend1, #spanBrend2 {
+	font-size: 27px;
+	transition-property: all;
+    transition-duration: 1s;
+}
+#spanBrend1 {
+	color: white !important;
+	font-weight: bolder !important;
+	transition-property: all;
+    transition-duration: 1s;
+}
+#spanBrend2 {
+	color: #ff4000 !important;
+	font-weight: bolder !important;
+	transition-property: all;
+    transition-duration: 1s;
+}
+nav {
+	background-color: black !important;
+	transition-property: all;
+    transition-duration: 1s;
+}
+.nav li a {
+	color: white !important;
+	transition-property: all;
+    transition-duration: 1s;
+}
+.nav li {
+	transition-property: all;
+    transition-duration: 1s;
+}
+/*------*/
+#navbar {
+	background-color: transparent !important;
+	height: 90px;
+	border: 1px solid gray;
+	transition-property: all;
+    transition-duration: 1s;
+}
+#navbarDiv {
+	margin-top: 20px;
+	transition-property: all;
+    transition-duration: 1s;
+}
+.spanBrend12 {
+	color: white !important;
+	font-size: 33px !important;
+	transition-property: all;
+    transition-duration: 1s;
+}
+.spanBrend22 {
+	color: #ff4000 !important;
+	font-size: 33px !important;
+	transition-property: all;
+    transition-duration: 1s;
+}
+.navbarA {
+	font-size: 17px !important;
+	height: 90px !important;
+	transition-property: all;
+    transition-duration: 1s;
+}
+ul li a:hover {
+	color: #ff4000 !important;
+}
+li.active a { 
+  color: #ff4000 !important;
+  border-top: 3px solid #ff4000 !important;
+}
+.BG {
+	background-color: transparent !important;
+}
+
+/*-----*/
+#prviDiv h1 {
+	margin-top: 270px;
+	font-size: 50px;
+	font-weight: bold;
+}
+#prviDiv p {
+	font-size: 20px;
+	margin-top: 30px;
+	color: #e0e0d1;
+}
+#prviDiv #btnPrviDiv {
+	background-color: transparent;
+	width: 10%;
+	padding: 10px;
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-bottom: 400px;
+	color: #e0e0d1;
+	transition-property: all;
+    transition-duration: 1s;
+}
+#prviDiv #btnPrviDiv:hover {
+	background-color: #ff4000;
+	animation-name: animacijaBojaPozadine;
+	animation-duration: 1s;
+}
+@keyframes animacijaBojaPozadine {
+    from {background-color: transparent;}
+    to {background-color: #ff4000;}
+}
+#strijelicaWrap {
+	margin-bottom: 40px;
+	margin-left: 1px !important;
+	width: 100% !important;
+	padding: 0px !important;
+	box-sizing: content-box !important;
+}
+#prviDiv #divStrijelicaPrva {
+	border: 2px solid lightgray;
+	width: 35px;
+	height: 35px;
+	margin-right: auto;
+	margin-left: auto;
+	transform: rotate(45deg);
+}
+#prviDiv #divStrijelicaPrva:hover {
+	background-color: #ff4000;
+	animation-name: animacijaBojaPozadine;
+	animation-duration: 1s;
+}
+#prviDiv .fa-angle-down {
+	transform: rotate(315deg);
+	animation-name: animacijaBojaPozadineStrijelica;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+@keyframes animacijaBojaPozadineStrijelica {
+    from {color: white;}
+    to {color: gray;}
+}
+/*CSS za DRUGI div*/
+
+#drugiDiv {
+	text-align: left;
+}
+#drugiDiv  h2 {
+	color: black;
+	font-weight: bolder;
+	margin-top: 80px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+#crtica {
+	border: 2px solid #ff4000;
+	width: 60px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#drugiDiv  h4 {
+	color: black;
+	font-weight: bolder;
+	margin-bottom: 30px;
+}
+#drugiDiv  p {
+	color: black;
+}
+.panel-body {
+	color: black;
+}
+.tab-pane {
+	padding-top: 10px;
+}
+.panel-heading {
+	height: 50px;
+	background-color: white !important;
+}
+#aAccordion1 {
+	color: #ff4000 !important;
+}
+.aAccordion:focus {
+	text-decoration: none;
+	color: #ff4000;
+}
+.aAccordion:hover {
+	color: #ff4000 !important;
+	transition-property: all;
+    transition-duration: 1s;
+    text-decoration: none;
+}
+.aTabPanel:hover {
+	color: #ff4000 !important;
+	transition-property: all;
+    transition-duration: 1s;
+    text-decoration: none;
+}
+.aTabPanel:focus {
+	text-decoration: none;
+	color: #ff4000 !important;
+}
+#aTabPanel1 {
+	border-left: none !important;
+	border-right: none !important;
+}
+.tab-content {
+	border-top: none !important;
+}
+.divHistory {
+	margin-top: 50px;
+}
+#imgHistory {
+	width: 100%;
+	height: 300px;
+}
+.divServicesChooseUs {
+	margin-top: 50px;
+}
+.nav-tabs li a {
+	color: black !important;
+}
+.tab-pane {
+	color: black !important;
+}
+#drugiDiv p strong {
+	color: black;
+	font-size: 15px;
+}
+#divProgresBarsWrap {
+	margin-bottom: 70px;
+	margin-top: 60px;
+}
+.pProgressBar {
+	margin-bottom: 20px;
+	text-align: center;
+}
+/* progress bars CSS */
+.progressBar {
+    width: 100%;
+    height: 22px;
+    border: 1px solid #111;
+    border-radius: 5px;
+    background-color: #666666;
+    margin-bottom: 20px;
+}
+.progressBar div {
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+    width: 0;
+    background-color: #ff4000;
+    border-radius: 5px 0px 0px 5px;
+    -webkit-transition: width 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out;
+    -o-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+}
+
+/*CSS za TRECI div*/
+
+#treciDiv {
+	background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) ), url("https://source.unsplash.com/fUd_0iyYFVg/1600x900");
+	text-align: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+#treciDiv  h2 {
+	font-weight: bolder;
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+#crtica {
+	margin-bottom: 25px;
+}
+#pTreciDiv {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white !important;
+}
+#karoTreciDiv {
+	border: 2px solid #ff4000;
+	width: 60px;
+	height: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	transform: rotate(135deg);
+	margin-bottom: 30px;
+	transition-duration: 1s;
+}
+#karoTreciDiv:hover {
+	background-color: #ff4000;
+	border: 2px solid lightgray;
+    text-decoration: none;
+}
+.fa-lightbulb-o, .fa-heart-o, .fa-coffee {
+	transform: rotate(225deg);
+	margin-left: 10px;
+	margin-right: 8px;
+	margin-top: 13px;
+}
+#treciDiv h4 {
+	margin-bottom: 30px;
+	color: lightgray;
+}
+.H4DrugaRec {
+	color: #ff4000;
+	font-weight: bold;
+}
+#treciDiv p {
+	color: lightgray;
+}
+.divKaroRed {
+	margin-top: 50px;
+}
+#divKaroRed2 {
+	margin-bottom: 70px;
+}
+
+/*CSS za CETVRTI div*/
+
+#cetvrtiDiv {
+	text-align: center;
+	margin-bottom: 70px;
+}
+#cetvrtiDiv  h2 {
+	color: black;
+	font-weight: bolder;
+	margin-top: 80px;
+	margin-bottom: 25px;
+}
+#cetvrtiDiv  p {
+	color: black;
+	width: 70%;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#cetvrtiDiv button {
+	margin: 30px 5px;
+	background-color: white;
+	border: 2px solid gray;
+	color: black;
+	padding: 5px 10px;
+}
+#cetvrtiDiv button:focus {
+	outline: 0;
+}
+#cetvrtiDiv button:hover {
+	border: 2px solid #ff4000 !important;
+	color: #ff4000 !important;
+	transition-property: all;
+    transition-duration: 1s
+}
+.BAllBoja {
+	border: 2px solid #ff4000 !important;
+	color: #ff4000 !important;
+}
+
+/* CSS za kocke/projekte */
+
+.P {
+	height: 250px;
+	position: relative;
+	padding: 0px;
+	flex: 1;
+	/*margin: 5px 5px;*/
+	overflow: hidden;
+}
+.I {
+	width: 0%;
+	height: 250px;
+	background-color: #ff4000;
+	position: absolute;
+	right: 0px;
+	z-index: 2;
+	opacity: 0.4;
+	padding: 0px;
+	margin: 0px;
+}
+.B {
+	width: 100%;
+	height: 0px;
+	position: absolute;
+	bottom: 0px;
+	z-index: 3;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+.imgProjekat {
+	width: 100%;
+	height: 250px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px;
+}
+.P:hover img {
+   -webkit-transform:scale(1.35); /* Safari and Chrome */
+   -moz-transform:scale(1.35); /* Firefox */
+   -ms-transform:scale(1.35); /* IE 9 */
+   -o-transform:scale(1.35); /* Opera */
+    transform:scale(1.35);
+
+     -webkit-transition: transform 0.70s ease;
+    -moz-transition:transform 0.70s ease;
+    -ms-transition:transform 0.70s ease;
+}
+.B h4 {
+	padding-top: 50px;
+}
+div.B a {
+	margin-top: 30px !important;
+	display: inline-block;
+	border: 2px solid black;
+	border-radius: 5px;
+	color: darkgray;
+	opacity: 0.7;
+	padding: 5px 10px 5px 10px;
+	transition: all 0.3s ease-in-out;
+}
+div.B a:hover {
+	opacity: 1;
+	transform: scale(1.2);
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.H4DivBottom1, .pDivBottom1 {
+	color: white !important;
+}
+
+/* kraj CSSa za kocke/projekte */
+
+/* CSS za peti div */
+
+#petiDiv {
+	background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url("https://source.unsplash.com/1Yu0VLMAUjo/1600x900");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	text-align: center;
+	color: #e0e0d1;
+	padding-top: 60px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 50px;
+}
+#petiDiv h2 {
+	color: white;
+	font-weight: bolder !important;
+	margin-bottom: 20px;
+}
+#pPetiDivGlavni {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ikonaPetiDiv {
+	color: #ff4000 !important;
+}
+.kafa {
+	transform: rotate(360deg);
+	margin-top: 0px;
+}
+.pPetiDiv {
+	font-size: 50px;
+	font-weight: bold !important;
+	margin-top: 15px;
+}
+.pPetiDiv1 {
+	font-size: 30px;
+	margin-top: 15px;
+}
+
+/* CSS za sesti div */
+
+#sestiDiv {
+	text-align: center;
+	color: black;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+#sestiDiv  h2 {
+	font-weight: bolder;
+	margin-bottom: 30px;
+}
+.pSestiDiv {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	color: black;
+}
+.teamMember {
+	width: 100%;
+	height: 250px;
+	margin-bottom: 20px;
+}
+.H4SestiDiv {
+	color: black;
+}
+.spanSestiDiv {
+  font-size: 40px !important;
+}
+.spanSestiDiv:hover {
+  color: #ff4000 !important;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 1s
+}
+.twitterBoja {
+  color: lightgray;
+}
+.faceBoja {
+  color: lightgray;
+}
+.linkBoja {
+  color: lightgray;
+}
+.googleBoja {
+  color: lightgray;
+}
+
+/* CSS za sedmi div  kopirano iz lile pa zato pise deveti*/
+
+#sedmiDiv {
+	text-align: center;
+	color: white;
+	padding: 70px 180px;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url("https://source.unsplash.com/wkO0q0UTqc8/1600x900");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+#sedmiDiv  h2 {
+	font-weight: bolder;
+	margin-bottom: 30px;
+}
+.pSedmiDiv {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	color: white;
+}
+.colDevetiDiv {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 5px;
+  padding-left: 5px;
+  flex: 1;
+}
+div.wrapperPrice {
+	border: 2px solid #f5f5f0;
+     -webkit-transition: transform 1s ease;
+    -moz-transition:transform 1s ease;
+    -ms-transition:transform 1s ease;
+}
+.wrapperPrice:hover {
+    border: 2px solid #ff4000;
+    -webkit-transform:scale(1.15); /* Safari and Chrome */
+   -moz-transform:scale(1.15); /* Firefox */
+   -ms-transform:scale(1.15); /* IE 9 */
+   -o-transform:scale(1.15); /* Opera */
+    transform:scale(1.15);
+}
+.h5Boja{
+	color: #ff4000;
+}
+.hrBoja{
+	border: 1px solid #ff4000;
+}
+.spanCena {
+  font-size: 60px;
+}
+.spanDolar {
+  vertical-align: top;
+  font-size: 30px !important;
+}
+.pStavke {
+  margin-bottom: 20px;
+  color: white;
+}
+#btnPrice {
+  border-radius: 0px !important;
+  width: 40%;
+  background-color: lightgray;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: black;
+  font-weight: bold;
+  transition-property: all;
+  transition-duration: 1s;
+}
+#btnPrice:hover {
+  background-color: #ff4000;
+  border: none;
+}
+
+/* CSS za osmi div */
+
+.slikaBlog {
+	width: 100%;
+}
+#osmiDiv {
+	text-align: center;
+	color: black;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.pOsmiDiv2 {
+	color: black;
+}
+.colBlog {
+	text-align: left;
+}
+div#osmiDiv h3 {
+	color: black;
+	font-weight: bolder;
+}
+.pOsmiDiv {
+	color: black;
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+}
+.pOsmiDiv1 {
+	color: #ff4000;
+	font-size: 12px;
+	margin-left: 0px !important;
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+}
+.BBlog {
+	width: 30%;
+	height: 50px;
+	background-color: white;
+	color: black;
+	outline: 0;
+	border: solid 1px gray;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	transition: all 0.3s ease-in-out;
+}
+.BBlog:hover {
+	background-color: #ff4000;
+	color: white;
+	font-weight: bold;
+
+}
+.BBlog span {
+	color: black;
+	padding-left: 5px;
+}
+
+/* CSS za deveti div */
+
+#devetiDiv {
+  padding-top: 70px;
+  text-align: center;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85) ), url('https://source.unsplash.com/32VYHONoYr4/1600x900');
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}
+.colOsmiDiv {
+  margin: auto;
+}
+#containerCarousel {
+  padding: 0px !important;
+}
+.spanOsmiDiv {
+  font-size: 40px !important;
+}
+.teamMemberOsmiDiv {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  width: 10%;
+  border-radius: 50%;
+}
+.pOsmiDiv1 {
+  width: 70%;
+  margin: 30px auto;
+}
+.spanOsmiDiv2 {
+  color: #e6b800;
+}
+@media screen and (max-width: 995px) {
+  .teamMemberOsmiDiv {
+  margin-right: auto;
+  margin-left: auto;
+  width: 15%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .teamMemberOsmiDiv {
+  margin-right: auto;
+  margin-left: auto;
+  width: 20%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .teamMemberOsmiDiv {
+  margin-right: auto;
+  margin-left: auto;
+  width: 25%;
+  }
+}
+
+/* CSS za deseti div */
+
+#desetiDiv {
+  padding-top: 70px;
+  text-align: center;
+}
+#desetiDiv h2 {
+  color: black;
+}
+.inputGrupa1 {
+	width: 100%;
+	padding-bottom: 10px;
+}
+input[type="text"] {
+     width: 100%; 
+     box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+}
+.divBtnForma {
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 60px;
+}
+#btnMessage {
+	background-color: white;
+	color: black;
+	border-radius: 0px !important;
+	border: 1px solid lightgray;
+	transition: all 0.3s ease-in-out;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#btnMessage:hover {
+	background-color: #ff4000;
+	color: white;
+}
+.divcinaContactInfo {
+	text-align: left;
+}
+#hFooter {
+	font-weight: bolder;
+}
+#hFooter, .pContactFooter {
+	color: black;
+	padding-bottom: 20px;
+}
+#spanWebsite {
+	color: black;
+}
+#spanWebsite:hover {
+	color: #ff4000;
+	cursor: pointer;
+}
+
+/* CSS za jedanaesti div */
+
+#jedanaestiDiv {
+	background-color: #0d0d0d;
+}
+
+/*CSS za footer*/
+.theFirm {
+  color: #ff4000;
+}
+.h2Footer{
+	padding-bottom: 30px;
+}
+.h4Footer{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.divLinksFooter{
+	padding-left: 150px !important;
+}
+.divLinksFooter a:hover{
+	text-decoration: none;
+	color: #ff4000;
+}
+.aFooter{
+	transition: color 0.3s ease-in-out;
+	display: block;
+	color: white;
+	padding-bottom: 20px;
+}
+.footerP{
+	padding-bottom: 20px !important;
+}
+.footerIkonice{
+	padding-bottom: 20px;
+}
+.pForma{
+	text-align: right;
+	padding-top: 15px;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+}
+.inputJedanaestiDiv{
+	width: 50%;
+}
+.input-group-addon{
+	padding-bottom: 8px !important;
+	font-size: 15px !important;
+	background-color: #ff4000 !important;
+	color: white !important;
+	font-weight: bolder !important;
+	cursor: pointer;
+	width: 70px !important;
+	transition: all 0.5s ease-in-out;
+}
+.input-group-addon:hover{
+	background-color: transparent !important;
+	color: #ff4000 !important;
+}
+.rowForma{
+	width: 70%;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.inputFooter{
+	width: 100%;
+	padding: 15px;
+	border-radius: 5px 0px 0px 5px;
+}
+#pFootera{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 0px !important;
+}
+#footer {
+  text-align: center;
+  padding: 0px !important;
+  color: #a6a6a6;
+}
+.foot {
+  padding: 0px !important;
+  margin: 0px !important;
+  border-radius: 0px !important;
+}
+
+/* CSS za Scroll To TOP */
+
+.scrollToTop{
+	width:65px; 
+	height:65px;
+	padding:10px; 
+	border-radius: 50%;
+	text-align:center; 
+	background: whiteSmoke;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	bottom:75px;
+	right:20px;
+	display:none;
+	background: #ff4000;
+	z-index: 3;
+	transform: rotate(-90deg);
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+#prstToTop {
+	font-size: 30px !important;
+	color: white !important;
+}
+@media screen and (max-width: 990px) {
+    .scrollToTop{
+	width:35px; 
+	height:35px;
+	padding:5px;
+	}
+	#prstToTop {
+	font-size: 18px !important;
+	color: white !important;
+	}
+}
+@media screen and (max-width: 350px) {
+    .scrollToTop{
+	width:30px; 
+	height:30px;
+	padding:5px;
+	}
+	#prstToTop {
+	font-size: 15px !important;
+	color: white !important;
+	}
+}
